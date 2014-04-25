@@ -1,0 +1,1015 @@
+{
+    "home":
+    {
+        "sections":
+        [
+            {
+                "section":
+                {
+                    "en":"School",
+                    "es":"Escuela",
+                    "de":"Schule",
+                    "et":"Kool",
+                    "el":"Σχολείο",
+                    "fr":"Ecole",
+                    "it":"Scuola",
+                    "lv":"Skola",
+                    "tr":"Okul",
+                    "pl":"Szkoła",
+                    "ar":"محتوى مدرسي",
+                    "ru":"Школа"
+                },
+                "image":   "../images/landing_pages_icons/school/open_class.png",
+                "imageh":  "../images/landing_pages_icons/school/open_class_h.png",
+                "link":    "#/section/school"
+            },
+            {
+                "section":
+                {
+                    "en":"University & Research",
+                    "es":"Académico",
+                    "de":"Universität und Forschung",
+                    "et":"Ülikool ja teadustöö",
+                    "el":"Πανεπιστήμιο & Έρευνα",
+                    "fr":"Université & Recherche",
+                    "it":"Università e Ricerca",
+                    "lv":"Universitāte  & Pētniecība",
+                    "tr":"Üniversite & Araştırma",
+                    "pl":"Uniwersytet & Nauka",
+                    "ar":"امحتوى جامعي وأبحاث متميزة",
+                    "ru":"Университет и исследование"
+
+                },
+                "image":   "../images/landing_pages_icons/university/school.png",
+                "imageh":  "../images/landing_pages_icons/university/school_h.png",
+                "link":    "#/section/academic"
+            },
+            {
+                "section":
+                {
+                    "en":"Professional & Business",
+                    "es":"Profesional",
+                    "de":"Experten & Betrieb",
+                    "et":"Elukutseline ja ärinduslik",
+                    "el":"Επαγγελματική κατάρτιση & επιχειρήσεις",
+                    "fr":"Professionnel & Business",
+                    "it":"Professionisti e Business",
+                    "lv":"Profesionāls &  Uzņēmējdarbība",
+                    "tr":"Meslek & İş",
+                    "pl":"Profesjonalne & Business",
+                    "ar":"مهن واعمال",
+                    "ru":"Профессиональный и предпринимательский"
+
+                },
+                "image":   "../images/landing_pages_icons/professional/job_profile.png",
+                "imageh":  "../images/landing_pages_icons/professional/job_profile_h.png",
+                "link":    "#/section/professional"
+            },
+            {
+                "section":
+                {
+                    "en":"General Public",
+                    "es":"Público General",
+                    "de":"Öffentlichkeit",
+                    "et":"Üldine avalikkus",
+                    "el":"Γενικού ενδιαφέροντος",
+                    "fr":"Grand public",
+                    "it":"Pubblico",
+                    "lv":"Plašai sabiedrībi",
+                    "tr":"Genel",
+                    "pl":"Ogólny Publiczność",
+                    "ar":"العموميات",
+                    "ru":"Общедоступный"
+                },
+                "image":   "../images/landing_pages_icons/public/plants.png",
+                "imageh":  "../images/landing_pages_icons/public/plants_h.png",
+                "link":    "#/section/generalpublic"
+            },
+            {
+                "section":
+                {
+                    "en":"Do It Yourself",
+                    "es":"Hazlo tú mismo",
+                    "de":"Mach es selbst",
+                    "et":"TEE ise",
+                    "el":"Κάν'το μόνος σου!",
+                    "fr":"A faire soi même",
+                    "it":"Fai da te",
+                    "lv":"Izdari to pats",
+                    "tr":"Kendiniz YAPIN",
+                    "pl":"Zrób to sam",
+                    "ar":"إصنع  بنفسك",
+                    "ru":"СДЕЛАЙТЕ сами"
+                },
+                "image":   "../images/landing_pages_icons/diy/composting.png",
+                "imageh":  "../images/landing_pages_icons/diy/composting_h.png",
+                "link":    "#/section/doityourself"
+            }
+
+        ],
+        "carousel":
+        [
+            {
+                "image": "/images/carousel/Walk-in-the-forest.png",
+                "alt":   "Walk in the forest",
+                "link":  "http://www.forestfoundation.org/stuff/contentmgr/files/1/c7c1a640537d942961a0ec5b1096c43c/pdf/walk_in_the_forest.pdf"
+            },
+            {
+                "image": "/images/carousel/PigIndustry.png",
+                "alt":   "Pig Industry",
+                "link":  "http://www.daff.qld.gov.au/27_122.htm"
+            }
+        ]
+    },
+    "school":
+    {
+        "sections":
+        [
+            {
+                "section":
+                {
+                    "en":"Open Air Classroom",
+                    "es":"Al aire libre",
+                    "de":"Freiluft Klassenraum",
+                    "et":"Õuesõpe",
+                    "el":"Έξω από την αίθουσα",
+                    "fr":"Travaux pratiques",
+                    "it":"Aula all'aperto",
+                    "lv":"Brīva gaisotne klasē",
+                    "tr":"Açık Hava Dersliği",
+                    "pl":"Klasa otwarta",
+                    "ar":"حصص دراسية في الهواء الطلق",
+                    "ru":"Обучение на открытом воздухе"
+                },
+                "image":   "../images/landing_pages_icons/school/open_class.png",
+                "imageh":  "../images/landing_pages_icons/school/open_class_h.png",
+                "link":    "#/search/*/1/educationalLearningResourceType=exploration:collection=aglrgsg|greenoer"
+            },
+            {
+                "section":
+                {
+                    "en":"Game-based Learning",
+                    "es":"Aprendizaje basado en juego",
+                    "de":"Spielbasiertes Lernen",
+                    "et":"Mängudel põhinev õpe",
+                    "el":"Παιχνιδοκεντρική Μάθηση",
+                    "fr":"Apprentissage basé sur le jeu",
+                    "it":"Apprendimento basato su giochi",
+                    "lv":"Uz spēli balstīta mācīšanās",
+                    "tr":"Oyun-tabanlı Öğrenme",
+                    "pl":"Nauka podstawie gry",
+                    "ar":"التعلم المعتمد على العاب متخصصة",
+                    "ru":"Занимательное игровое обучение"
+                },
+                "image":   "../images/landing_pages_icons/school/game_based.png",
+                "imageh":  "../images/landing_pages_icons/school/game_based_h.png",
+                "link":    "#/search/*/1/educationalLearningResourceType=educational game:collection=greenoer|oeellinogermaniki|aglroel|aglrnb|aglrgsg|aglrslowfood|aglrllb|aglrfoodsafety"
+            },
+            {
+                "section":
+                {
+                    "en":"Green Your Lesson Plan",
+                    "es":"PlanifÃcate en verde",
+                    "de":"Begrüne deinen Unterrichtsplan",
+                    "et":"Muuda õppeplaan „roheliseks“",
+                    "el":"Πράσινη εκπαίδευση",
+                    "fr":"Mettre de l'écologie dans vos cours",
+                    "it":"Rendi verde il tuo modulo didattico",
+                    "lv":"Jūsu zaļais nodarbību plāns",
+                    "tr":"Ders Planınızı Yeşertin",
+                    "pl":"Zielona edukacja",
+                    "ar":"خطة دراسية صديقة للبيئة",
+                    "ru":"Измените учебный план на „зелёный“"
+                },
+                "image":   "../images/landing_pages_icons/school/green_lesson.png",
+                "imageh":  "../images/landing_pages_icons/school/green_lesson_h.png",
+                "link":    "#/search/*/1/educationalLearningResourceType=lesson plan:collection=greenoer|oeellinogermaniki|aglroel|aglrnb|aglrgsg|aglrslowfood|aglrllb|aglrfoodsafety"
+            },
+            {
+                "section":
+                {
+                    "en":"Broadcasts",
+                    "es":"Retransmisiones",
+                    "de":"Broadcasts",
+                    "et":"Ülekanded",
+                    "el":"Τηλεκπαίδευση",
+                    "fr":"Emissions",
+                    "it":"Trasmissione",
+                    "lv":"Pārraides",
+                    "tr":"Yayınlar",
+                    "pl":"Transmisje",
+                    "ar":"إذاعة وبث",
+                    "ru":"Передачи"
+                },
+                "image":   "../images/landing_pages_icons/school/broadcast.png",
+                "imageh":  "../images/landing_pages_icons/school/broadcast_h.png",
+                "link":    "#/search/*/1/educationalLearningResourceType=broadcast|video|audio:collection=greenoer|oeellinogermaniki|aglroel|aglrnb|aglrgsg|aglrslowfood|aglrllb|aglrfoodsafety"
+            }
+        ],
+        "themes":
+        [
+            {
+                "section":
+                {
+                    "en":"Polar Stories",
+                    "es":"Historias polares",
+                    "de":"Polargeschichten",
+                    "et":"Polaarlood",
+                    "el":"Αρκτικές Ιστορίες",
+                    "fr":"Par grand froid",
+                    "it":"Storie polari",
+                    "lv":"Polārie stāsti",
+                    "tr":"Polar Öyküler",
+                    "pl":"Polarne opowiadania",
+                    "ar":"اقصص حول القطب الجنوبي والشمالي",
+                    "ru":"Полярные истории"
+                },
+                "image":   "../images/landing_pages_icons/school/polar.png",
+                "imageh":  "../images/landing_pages_icons/school/polar_h.png",
+                "link":    "#/search/polar/1/educationalLearningResourceType=reference:collection=nsdlbeyond:educationalContext=compulsory education"
+            },
+            {
+                "section": "Insects and Plants",
+                "section":
+                {
+                    "en":"Insects and Plants",
+                    "es":"Insectos y plantas",
+                    "de":"Insekten und Pflanzen",
+                    "et":"Putukad ja taimed",
+                    "el":"Έντομα & Φυτά",
+                    "fr":"Insectes et Plantes",
+                    "it":"Insetti e piante",
+                    "lv":"Kukaiņi un augi",
+                    "tr":"Böcekler ve Bitkiler",
+                    "pl":"Owady i rośliny",
+                    "ar":"المهن والأعمال",
+                    "ru":"Насекомые и растения"
+                },
+                "image":   "../images/landing_pages_icons/school/insects.png",
+                "imageh":  "../images/landing_pages_icons/school/insects_h.png",
+                "link":    "#/search/plants insects/1/collection=greenoer|aglroel|NSDLBEYOND|greenoer:educationalContext=pre-school|compulsory education"
+            },
+            {
+                "section":
+                {
+                    "en":"School Gardens",
+                    "es":"Jardines en la escuela",
+                    "de":"Schulgärten",
+                    "et":"Kooliaiad",
+                    "el":"Σχολικοί κήποι",
+                    "fr":"Maternelle",
+                    "it":"Giardini scuola",
+                    "lv":"Skolas dārzs",
+                    "tr":"Okul Bahçeleri",
+                    "pl":"Szkolny ogród",
+                    "ar":"احدائق مدرسيّة",
+                    "ru":"Школьный сад"
+                },
+                "image":   "../images/landing_pages_icons/school/garden.png",
+                "imageh":  "../images/landing_pages_icons/school/garden_h.png",
+                "link":    "#/search/school garden, organic garden, organic gardening/1/collection=greenoer|oeellinogermaniki|aglroel|aglrnb|aglrgsg|aglrslowfood|aglrllb|aglrfoodsafety:educationalContext=pre-school|compulsory education"
+            },
+            {
+                "section":
+                {
+                    "en":"Recycling Guru",
+                    "es":"Maestro del reciclaje",
+                    "de":"Recycling Experte",
+                    "et":"Taaskasutus",
+                    "el":"Γκουρού της Ανακύκλωσης",
+                    "fr":"Recyclage",
+                    "it":"Guru del riciclo",
+                    "lv":"Pārstrādes doma",
+                    "tr":"Geridönüşüm Rehberi",
+                    "pl":"Recykling Guru",
+                    "ar":"مرشد اعادة التدوير",
+                    "ru":"Переработка"
+                },
+                "image":   "../images/landing_pages_icons/school/recycle.png",
+                "imageh":  "../images/landing_pages_icons/school/recycle_h.png",
+                "link":    "#/search/recycling/1/collection=greenoer|AGLRNB|aglrgsg:educationalContext=pre-school|compulsory education"
+            }
+        ],
+        "carousel":
+        [
+            {
+                "image": "/images/carousel/UnglySaysWho.png",
+                "alt":   "Ugly? Says Who?",
+                "link":  "http://www.pbs.org/wnet/nature/lessons/ugly-says-who/lesson/422/"
+            },
+            {
+                "image": "/images/carousel/GardenPollinators.png",
+                "alt":   "Garden Pollinators",
+                "link":  "http://www.lifelab.org/wp-content/uploads/2010/02/3rdGardenPollinators2012.pdf"
+            }
+        ],
+        "latest":
+        [
+            {
+                "id": 100
+            },
+            {
+                "id": 100
+            },
+            {
+                "id": 100
+            },
+            {
+                "id": 100
+            },
+            {
+                "id": 100
+            }
+        ],
+        "featured":
+        [
+            {
+                "id": 100
+            }
+        ]
+    },
+    "professional":
+    {
+        "sections":
+        [
+            {
+                "section":
+                {
+                    "en":"Training Material",
+                    "es":"Material de formación",
+                    "de":"Übungsmaterial",
+                    "et":"Õppematerjal",
+                    "el":"Εκπαιδευτικό υλικό",
+                    "fr":"S'entrainer",
+                    "it":"Documentazione",
+                    "lv":"Mācību materiāli",
+                    "tr":"Eğitim Materyali",
+                    "pl":"Materiały szkoleniowe",
+                    "ar":"مادة تدريبية",
+                    "ru":"Учебный материал"
+                },
+                "image":   "../images/landing_pages_icons/professional/training.png",
+                "imageh":  "../images/landing_pages_icons/professional/training_h.png",
+                "link":    "#/search/*/1/educationalContext=continuing education|vocational education|policy making:educationalLearningResourceType=course"
+            },
+            {
+                "section":
+                {
+                    "en":"Food Standards",
+                    "es":"Normas Alimentarias",
+                    "de":"Essensstandards",
+                    "et":"Toidu standardid",
+                    "el":"Πρότυπα τροφίμων",
+                    "fr":"Normes pour l'alimentation",
+                    "it":"Standard alimentare",
+                    "lv":"Pārtikas standarti",
+                    "tr":"Gıda Standartları",
+                    "pl":"Standardów Żywności",
+                    "ar":"االمعايير الغذائية",
+                    "ru":"Пищевые стандарты"
+                },
+                "image":   "../images/landing_pages_icons/professional/food.png",
+                "imageh":  "../images/landing_pages_icons/professional/food_h.png",
+                "link":    "#/search/food standard/1/educationalContext=continuing education|vocational education|policy making:collection=AGLRFAOCDX|oeintute"
+            },
+            {
+                "section":
+                {
+                    "en":"Certification & Labelling",
+                    "es":"Certificación",
+                    "de":"Zertifizierung",
+                    "et":"Kõlblikuks tunnistamine ja märgistamine",
+                    "el":"Πιστοποίηση και Σήμανση",
+                    "fr":"Certification et Appellation",
+                    "it":"Certificazione e etichettatura",
+                    "lv":"Sertifikācija un marķēšana",
+                    "tr":"Sertifikasyon ve Etiketleme",
+                    "pl":"Certyfikacja i Oznakowanie",
+                    "ar":"اعتماد المنتج والملصقات",
+                    "ru":"Сертификация и маркировка"
+                },
+                "image":   "../images/landing_pages_icons/professional/certification.png",
+                "imageh":  "../images/landing_pages_icons/professional/certification_h.png",
+                "link":    "#/search/certification, organic certification, labelling, labeling/1/educationalContext=continuing education|vocational education|policy making"
+            },
+            {
+                "section":
+                {
+                    "en":"Job Profiles",
+                    "es":"Perfiles de trabajo",
+                    "de":"Jobprofile",
+                    "et":"Tööprofiilid",
+                    "el":"Χαρακτηριστικά θέσεων εργασίας",
+                    "fr":"Emploi",
+                    "it":"Profili lavorativi",
+                    "lv":"Darba apraksti",
+                    "tr":"Meslek Profilleri",
+                    "pl":"Profile zawodowe",
+                    "ar":"اوصف وظيفي/توصيفات",
+                    "ru":"Рабочие профили"
+                },
+                "image":   "../images/landing_pages_icons/professional/job_profile.png",
+                "imageh":  "../images/landing_pages_icons/professional/job_profile_h.png",
+                "link":    "#/search/job profile/1/educationalContext=vocational education:educationalContext=professional development"
+            }
+        ],
+        "themes":
+        [
+            {
+                "section":
+                {
+                    "en":"Animal Husbandry",
+                    "es":"Ganadería",
+                    "de":"Tierzucht",
+                    "et":"Koduloomade pidamine",
+                    "el":"Κτηνοτροφία",
+                    "fr":"Elevage des animaux",
+                    "it":"Zootecnica",
+                    "lv":"Lopkopība",
+                    "tr":"Hayvan Yetiştirme",
+                    "pl":"Hodowla zwierząt",
+                    "ar":"اتربية الحيوانات الداجنة",
+                    "ru":"Содержание домашних животных"
+                },
+                "image":   "../images/landing_pages_icons/professional/animal.png",
+                "imageh":  "../images/landing_pages_icons/professional/animal_h.png",
+                "link":    "#/search/animal husbandry/1/collection=oeorganiceprints|oeintute|OEEULSESTONIAN"
+            },
+            {
+                "section":
+                {
+                    "en":"Crop Production",
+                    "es":"Producción de cultivos",
+                    "de":"Ernte",
+                    "et":"Saagi tootmine",
+                    "el":"Φυτική παραγωγή",
+                    "fr":"Production de culture",
+                    "it":"Produzione di grano",
+                    "lv":"Augkopība",
+                    "tr":"Tarla Bitkileri",
+                    "pl":"Uprawy",
+                    "ar":"إنتاج المحاصيل",
+                    "ru":"Растениеводство"
+                },
+                "image":   "../images/landing_pages_icons/professional/crop_production.png",
+                "imageh":  "../images/landing_pages_icons/professional/crop_production_h.png",
+                "link":    "#/search/crop production/1/collection=OEBMLFUWAUSTRIAN|oeorganiceprints|oeintute|faocapacityportal"
+            },
+            {
+                "section":
+                {
+                    "en":"Cultivation Techniques",
+                    "es":"Técnicas de cultivo",
+                    "de":"Растениеводство",
+                    "et":"Kultiveerimise tehnikad",
+                    "el":"Τεχνικές καλλιέργιας",
+                    "fr":"Techniques de culture",
+                    "it":"Tecniche di coltivazione",
+                    "lv":"Audzēšanas metodes",
+                    "tr":"Ekim Teknikleri",
+                    "pl":"Techniki uprawy",
+                    "ar":"اتقنيات زراعية",
+                    "ru":"Агротехника"
+                },
+                "image":   "../images/landing_pages_icons/professional/cultivation_tech.png",
+                "imageh":  "../images/landing_pages_icons/professional/cultivation_tech_h.png",
+                "link":    "#/search/*/1/collection=digitalgreen"
+            }
+        ],
+        "carousel":
+        [
+            {
+                "image": "/images/carousel/UnglySaysWho.png",
+                "alt":   "Ugly? Says Who?",
+                "link":  "http://www.pbs.org/wnet/nature/lessons/ugly-says-who/lesson/422/"
+            },
+            {
+                "image": "/images/carousel/GardenPollinators.png",
+                "alt":   "Garden Pollinators",
+                "link":  "http://www.lifelab.org/wp-content/uploads/2010/02/3rdGardenPollinators2012.pdf"
+            }
+        ],
+        "latest":
+        [
+            {
+                "id": 100
+            },
+            {
+                "id": 100
+            },
+            {
+                "id": 100
+            },
+            {
+                "id": 100
+            },
+            {
+                "id": 100
+            }
+        ],
+        "featured":
+        [
+            {
+                "id": 100
+            }
+        ]
+    },
+    "generalpublic":
+    {
+        "sections":
+        [
+            {
+                "section":
+                {
+                    "en":"Food Safety & Nutrition",
+                    "es":"Seguridad alimentaria y nutrición",
+                    "de":"Lebensmittelsicherheit",
+                    "et":"Toiduohutus ja väetamine",
+                    "el":"Ασφάλεια τροφίμων & διατροφή",
+                    "fr":"Sécurité alimentaire & Nutrition",
+                    "it":"Sicurezza alimentare & Nutrizione",
+                    "lv":"Pārtikas drošība  & uzturvērtība",
+                    "tr":"Gıda Güvenliği & Besleme",
+                    "pl":"Bezpieczeństwa Żywności i Żywienia",
+                    "ar":"حول الأمن الغذائي والتغذية",
+                    "ru":"Безопасность пищевых продуктов и питание"
+                },
+                "image":   "../images/landing_pages_icons/public/nutrition.png",
+                "imageh":  "../images/landing_pages_icons/public/nutrition_h.png",
+                "link":    "#/search/food safety"
+            },
+            {
+                "section":
+                {
+                    "en":"Energy efficiency",
+                    "es":"Eficiencia energética",
+                    "de":"Energieeffizienz",
+                    "et":"Energia kasutegur",
+                    "el":"Ενεργειακή απόδοση",
+                    "fr":"Gestion de l'énergie",
+                    "it":"Efficienza energetica",
+                    "lv":"Energoefektivitāte",
+                    "tr":"Enerji Etkinliği",
+                    "pl":"Efektywność energetyczna",
+                    "ar":"كفاءة استخدام الطاقة",
+                    "ru":"Энергоэффективность"
+                },
+                "image":   "../images/landing_pages_icons/public/energy.png",
+                "imageh":  "../images/landing_pages_icons/public/energy_h.png",
+                "link":    "#/search/energy/1/educationalContext=continuing education"
+            },
+            {
+                "section":
+                {
+                    "en":"Horticulture & Gardening",
+                    "es":"Horticultura y jardinería",
+                    "de":"Gartenbau",
+                    "et":"Aiandus",
+                    "el":"Φυτοκομία & κηπουρική",
+                    "fr":"Horticulture et jardinage",
+                    "it":"Orticoltura e giardinaggio",
+                    "lv":"Dārzkopība",
+                    "tr":"Bahçe Bitkileri & Bahçıvanlık",
+                    "pl":"Ogrodnictwo",
+                    "ar":"البستنة أو علم الجنانة",
+                    "ru":"Садоводство"
+                },
+                "image":   "../images/landing_pages_icons/public/gardening.png",
+                "imageh":  "../images/landing_pages_icons/public/gardening_h.png",
+                "link":    "#/search/horticulture, home gardens/1/educationalContext=continuing education|distance education"
+            },
+            {
+                "section":
+                {
+                    "en":"Aromatic & medicinal plants",
+                    "es":"Plantas medicinales y aromáticas",
+                    "de":"Medizinische Pflanzen",
+                    "et":"Aromaatsed ning meditsiinilised taimed",
+                    "el":"Αρωματικά & φαρμακευτικά φυτά",
+                    "fr":"Plantes aromatiques et médicinales",
+                    "it":"Piante aromatiche e medicinali",
+                    "lv":"Aromātiskie  & ārstniecības augi",
+                    "tr":"Aromatik ve Tıbbi Bitkileri",
+                    "pl":"Rośliny aromatyczne i lecznicze",
+                    "ar":"النباتات العطرية والطبية",
+                    "ru":"Ароматические и лекарственные растения"
+                },
+                "image":   "../images/landing_pages_icons/public/plants.png",
+                "imageh":  "../images/landing_pages_icons/public/plants_h.png",
+                "link":    "#/search/aromatic/1"
+            }
+        ],
+        "themes":
+        [
+            {
+                "section":
+                {
+                    "en":"Slow Food Stories",
+                    "es":"Relatos sobre Slow Food",
+                    "de":"Langsame Essensgeschichten",
+                    "et":"Lood „aeglasest toidust“",
+                    "el":"Ιστορίες „Slow Food“",
+                    "fr":"S'éduquer au goût",
+                    "it":"Storie Slow Food",
+                    "lv":"Laba un veselīgas pārtikas stāsti",
+                    "tr":"Yavaş Yemek Öyküleri",
+                    "pl":"Slow Food Historie",
+                    "ar":"اقصص من حركة سلوفود الداعية لترك الأطعمة السريعة",
+                    "ru":"Истории „о медленном питании“"
+                },
+                "image":   "../images/landing_pages_icons/public/slow_food.png",
+                "imageh":  "../images/landing_pages_icons/public/slow_food_h.png",
+                "link":    "#/search/slow food"
+            }
+        ],
+        "carousel":
+        [
+            {
+                "image": "/images/carousel/UnglySaysWho.png",
+                "alt":   "Ugly? Says Who?",
+                "link":  "http://www.pbs.org/wnet/nature/lessons/ugly-says-who/lesson/422/"
+            },
+            {
+                "image": "/images/carousel/GardenPollinators.png",
+                "alt":   "Garden Pollinators",
+                "link":  "http://www.lifelab.org/wp-content/uploads/2010/02/3rdGardenPollinators2012.pdf"
+            }
+        ],
+        "latest":
+        [
+            {
+                "id": 100
+            },
+            {
+                "id": 100
+            },
+            {
+                "id": 100
+            },
+            {
+                "id": 100
+            },
+            {
+                "id": 100
+            }
+        ],
+        "featured":
+        [
+            {
+                "id": 100
+            }
+        ]
+    },
+    "doityourself":
+    {
+        "sections":
+        [
+            {
+                "section":
+                {
+                    "en":"Grow mushrooms",
+                    "es":"Cultivo de setas",
+                    "de":"Pilze anbauen",
+                    "et":"Kasvata seeni",
+                    "el":"Καλλιέργεια μανιταριών",
+                    "fr":"Cultiver des champignons",
+                    "it":"Coltivare funghi",
+                    "lv":"Sēņu augšana",
+                    "tr":"Mantar Yetiştiriciliği",
+                    "pl":"Rosną pieczarki",
+                    "ar":"زراعة الفطر",
+                    "ru":"Выращивание грибов"
+                },
+                "image":   "../images/landing_pages_icons/diy/mushrooms.png",
+                "imageh":  "../images/landing_pages_icons/diy/mushrooms_h.png",
+                "link":    "#/search/mushroom/1/collection=OEINTUTE|DIGITALGREEN|TRAGLOR|OPTUNESCO|OEFAO"
+            },
+            {
+                "section":
+                {
+                    "en":"Home Fruit Production",
+                    "es":"Producción de fruta casera",
+                    "de":"Heimfruchtanbau",
+                    "et":"Kodune puuviljakasvatus",
+                    "el":"Εγχώρια παραγωγή φρούτων",
+                    "fr":"Arbres fruitiers",
+                    "it":"Produzione casalinga di frutta",
+                    "lv":"Mājas augļu ražošana",
+                    "tr":"Evde Meyve Yetiştiriciliği",
+                    "pl":"Produkcja owoców w domu",
+                    "ar":"الانتاج المنزلي للفاكهة",
+                    "ru":"Домашнее выращивание фруктов"
+                },
+                "image":   "../images/landing_pages_icons/diy/fruit.png",
+                "imageh":  "../images/landing_pages_icons/diy/fruit_h.png",
+                "link":    "#/search/home gardening/1/collection=OEINTUTE"
+            },
+            {
+                "section":
+                {
+                    "en":"Pruning",
+                    "es":"Recorte",
+                    "de":"Beschneiden",
+                    "et":"Kärpimine",
+                    "el":"Κλάδεμα",
+                    "fr":"Elaguer",
+                    "it":"Potatura",
+                    "lv":"Atzarošana",
+                    "tr":"Budama",
+                    "pl":"Przycinanie",
+                    "ar":"تشذيب (تهذيب)",
+                    "ru":"обрезка"
+                },
+                "image":   "../images/landing_pages_icons/diy/prunning.png",
+                "imageh":  "../images/landing_pages_icons/diy/prunning_h.png",
+                "link":    "#/search/pruning/1/"
+            },
+            {
+                "section":
+                {
+                    "en":"Weed control",
+                    "es":"Control de plagas",
+                    "de":"Unkrautbekämpfung",
+                    "et":"umbrohutõrje",
+                    "el":"Καταπολέμηση ζιζανίων",
+                    "fr":"Mauvaises herbes",
+                    "it":"Controllo delle piante infestanti",
+                    "lv":"Nezāļu apkarošana",
+                    "tr":"Yabancı Otla Mücadele",
+                    "pl":"Zwalczanie Chwastów",
+                    "ar":"امكافحة الاعشاب الضارة",
+                    "ru":"прополка"
+                },
+                "image":   "../images/landing_pages_icons/diy/weed_control.png",
+                "imageh":  "../images/landing_pages_icons/diy/weed_control_h.png",
+                "link":    "#/search/weed control/1/educationalContext=continuing education|vocational education"
+            }
+        ],
+        "themes":
+        [
+            {
+                "section":
+                {
+                    "en":"Composting",
+                    "es":"Composting",
+                    "de":"Kompostieren",
+                    "et":"komposteerimine",
+                    "el":"Κομποστοποίηση",
+                    "fr":"Compostage",
+                    "it":"Compostaggio",
+                    "lv":"Kompostrēšana",
+                    "tr":"Kompostlama",
+                    "pl":"Kompostowanie",
+                    "ar":"عالم التسميد وصناعة الأسمدة",
+                    "ru":"компостирование"
+                },
+                "image":   "../images/landing_pages_icons/diy/composting.png",
+                "imageh":  "../images/landing_pages_icons/diy/composting_h.png",
+                "link":    "#/search/composting/1/educationalContext=continuing education"
+            }
+        ],
+        "carousel":
+        [
+            {
+                "image": "/images/carousel/UnglySaysWho.png",
+                "alt":   "Ugly? Says Who?",
+                "link":  "http://www.pbs.org/wnet/nature/lessons/ugly-says-who/lesson/422/"
+            },
+            {
+                "image": "/images/carousel/GardenPollinators.png",
+                "alt":   "Garden Pollinators",
+                "link":  "http://www.lifelab.org/wp-content/uploads/2010/02/3rdGardenPollinators2012.pdf"
+            }
+        ],
+        "latest":
+        [
+            {
+                "id": 100
+            },
+            {
+                "id": 100
+            },
+            {
+                "id": 100
+            },
+            {
+                "id": 100
+            },
+            {
+                "id": 100
+            }
+        ],
+        "featured":
+        [
+            {
+                "id": 100
+            }
+        ]
+    },
+    "academic":
+    {
+        "sections":
+        [
+            {
+                "section":
+                {
+                    "en":"Courses",
+                    "es":"Cursos",
+                    "de":"Kurse",
+                    "et":"Kursused",
+                    "el":"Μαθήματα",
+                    "fr":"Cours",
+                    "it":"Corsi",
+                    "lv":"Kursi",
+                    "tr":"Dersler",
+                    "pl":"Kursy",
+                    "ar":"امساقات دراسية",
+                    "ru":"Курсы"
+                },
+                "image":   "../images/landing_pages_icons/university/school.png",
+                "imageh":  "../images/landing_pages_icons/university/school_h.png",
+                "link":    "#/search/*/1/educationalContext=higher education:educationalLearningResourceType=course:collection=aglrfoodsafety|RUFORUM|oerafrica|greenoer|oeagroasis|sermicro|oeintute"
+            },
+            {
+                "section":
+                {
+                    "en":"Research studies",
+                    "es":"Estudios de investigación",
+                    "de":"Forschungsstudien",
+                    "et":"Teadustöö",
+                    "el":"Ερευνητικές μελέτες",
+                    "fr":"Etude scientifique",
+                    "it":"Studi scientifici",
+                    "lv":"Pētījumi",
+                    "tr":"Araştırma Çalışmaları",
+                    "pl":"Studia Naukowe",
+                    "ar":"المهن والأعمال",
+                    "ru":"Исследование"
+                },
+                "image":   "../images/landing_pages_icons/university/research.png",
+                "imageh":  "../images/landing_pages_icons/university/research_h.png",
+                "link":    "#/search/*/1/educationalContext=higher education:educationalLearningResourceType=reference|case study:collection=greenoer|oerafrica|oeorganiceprints|oespanish"
+            },
+            {
+                "section":
+                {
+                    "en":"Teaching with Data",
+                    "es":"Enseña con datos",
+                    "de":"Leren mit Daten",
+                    "et":"Õpetamine, mis põhineb andmetel",
+                    "el":"Διδάσκοντας με δεδομένα",
+                    "fr":"Données",
+                    "it":"Insegnare con i dati",
+                    "lv":"Mācīšana izmantojot datus",
+                    "tr":"Veri ile Öğretme",
+                    "pl":"Nauczanie z danymi",
+                    "ar":"االتدريس المعتمد على البيانات",
+                    "ru":"Обучение, которое основывается на данных"
+                },
+                "image":   "../images/landing_pages_icons/university/teaching.png",
+                "imageh":  "../images/landing_pages_icons/university/teaching_h.png",
+                "link":    "#/search/*/1/educationalContext=higher education:educationalLearningResourceType=data:collection=greenoer|sermicro"
+            },
+            {
+                "section":
+                {
+                    "en":"Experiments & labs",
+                    "es":"Experimentos y laboratorios",
+                    "de":"Experimente und Labore",
+                    "et":"Eksperimendid ja laborid",
+                    "el":"Πειράματα & εργαστήρια",
+                    "fr":"Expérimentations",
+                    "it":"Esperimenti e Laboratori",
+                    "lv":"Ekspermenti  & laboratorijas",
+                    "tr":"Denemeler & Laboratuvarlar",
+                    "pl":"Eksperymenty i laboratoria",
+                    "ar":"تجارب ومختبرات",
+                    "ru":"Эксперименты и лаборатории"
+                },
+                "image":   "../images/landing_pages_icons/university/lab.png",
+                "imageh":  "../images/landing_pages_icons/university/lab_h.png",
+                "link":    "#/search/*/1/educationalContext=higher education:educationalLearningResourceType=experiment:collection=sermicro"
+            }
+        ],
+        "themes":
+        [
+            {
+                "section":
+                {
+                    "en":"Water Conservation",
+                    "es":"Convervación del agua",
+                    "de":"Wasserkonservation",
+                    "et":"Vee säilitamine",
+                    "el":"Εξοικονόμηση Υδάτινων Πόρων",
+                    "fr":"Conservation de l'eau",
+                    "it":"Conservazione dell'acqua",
+                    "lv":"Ūdens saglabāšana",
+                    "tr":"Su Muhafazası",
+                    "pl":"Ochrona wody",
+                    "ar":"حفظ المياه",
+                    "ru":"Сохранение воды"
+                },
+                "image":   "../images/landing_pages_icons/university/water.png",
+                "imageh":  "../images/landing_pages_icons/university/water_h.png",
+                "link":    "#/search/water conservation/1/collection=oeintute|sermicro|oefao|prodinraagro"
+            },
+            {
+                "section":
+                {
+                    "en":"Forest Biodiversity",
+                    "es":"Biodiversidad en el bosque",
+                    "de":"Wald Biodiversität",
+                    "et":"Metsa bioloogiline mitmekesisus",
+                    "el":"Βιοποικιλότητα των δασών",
+                    "fr":"Biodiversité forestière",
+                    "it":"Biodiversità forestale",
+                    "lv":"Meža bioloģiskā daudzveidība",
+                    "tr":"Orman Biyoçeşitliliği",
+                    "pl":"Różnorodność biologiczna lasów",
+                    "ar":"التنوع الحيوي في الغابات",
+                    "ru":"Биоразнообразие лесов"
+                },
+                "image":   "../images/landing_pages_icons/university/forest.png",
+                "imageh":  "../images/landing_pages_icons/university/forest_h.png",
+                "link":    "#/search/forest biodiversity/1/collection=oeintute|oefao|prodinraagro|oeorganiceprints|oespanish"
+            },
+            {
+                "section":
+                {
+                    "en":"Organic Food",
+                    "es":"Comida orgánica",
+                    "de":"Organisches Essen",
+                    "et":"Mahetoit",
+                    "el":"Βιολογικά τρόφιμα",
+                    "fr":"Nourriture bio",
+                    "it":"Cibo Biologico",
+                    "lv":"Organiskā pārtika",
+                    "tr":"Organik Gıda",
+                    "pl":"Żywność ekologiczna",
+                    "ar":"أغذية عضوية",
+                    "ru":"Профессиональный и предпринимательский"
+                },
+                "image":   "../images/landing_pages_icons/university/organic.png",
+                "imageh":  "../images/landing_pages_icons/university/organic_h.png",
+                "link":    "#/search/organic food/1/collection=oefao|prodinraagro|oeorganiceprints|faocapacityportal|aglrfoodsafety"
+            },
+            {
+                "section":
+                {
+                    "en":"Waste management",
+                    "es":"Gestión de residuos",
+                    "de":"Abfallmanagement",
+                    "et":"Jäätmekäitlus",
+                    "el":"Διαχείριση απορριμάτων",
+                    "fr":"Gestion des déchets",
+                    "it":"Gestione dei Rifiuti",
+                    "lv":"Atkritumu apsaimniekošana",
+                    "tr":"Atık Yönetimi",
+                    "pl":"Zarządzanie odpadami",
+                    "ar":"اإدارة النفايات",
+                    "ru":"Обработка отходов"
+                },
+                "image":   "../images/landing_pages_icons/university/waste.png",
+                "imageh":  "../images/landing_pages_icons/university/waste_h.png",
+                "link":    "#/search/waste management/1/collection=oeintute|oeaua|prodinraagro|oeorganiceprints|sermicro"
+            }
+        ],
+        "carousel":
+        [
+            {
+                "image": "/images/carousel/UnglySaysWho.png",
+                "alt":   "Ugly? Says Who?",
+                "link":  "http://www.pbs.org/wnet/nature/lessons/ugly-says-who/lesson/422/"
+            },
+            {
+                "image": "/images/carousel/GardenPollinators.png",
+                "alt":   "Garden Pollinators",
+                "link":  "http://www.lifelab.org/wp-content/uploads/2010/02/3rdGardenPollinators2012.pdf"
+            }
+        ],
+        "latest":
+        [
+            {
+                "id": 100
+            },
+            {
+                "id": 100
+            },
+            {
+                "id": 100
+            },
+            {
+                "id": 100
+            },
+            {
+                "id": 100
+            }
+        ],
+        "featured":
+        [
+            {
+                "id": 100
+            }
+        ]
+    }
+}

@@ -1,0 +1,43 @@
+# Set expire headers and remove FileETag
+    FileETag None
+    ExpiresActive On
+
+    ExpiresByType text/css        "access plus 300 seconds"
+    ExpiresByType text/javascript "access plus 300 seconds"
+
+    ExpiresByType application/x-javascript "access plus 1 second"
+    ExpiresByType application/javascript   "access plus 1 second"
+
+    ExpiresByType image/png    "access plus 1 year"
+    ExpiresByType image/jpeg   "access plus 1 year"
+    ExpiresByType image/gif    "access plus 1 year"
+    ExpiresByType image/x-icon "access plus 1 month"
+
+# Apache configuration file
+# http://httpd.apache.org/docs/2.2/mod/quickreference.html
+
+# Note: ".htaccess" files are an overhead for each request. This logic should
+# be placed in your Apache config whenever possible.
+# http://httpd.apache.org/docs/2.2/howto/htaccess.html
+
+# Turning on the rewrite engine is necessary for the following rules and
+# features. "+FollowSymLinks" must be enabled for this to work symbolically.
+
+<IfModule mod_rewrite.c>
+	Options +FollowSymLinks
+	RewriteEngine On
+</IfModule>
+
+# For all files not found in the file system, reroute the request to the
+# "index.php" front controller, keeping the query string intact
+
+<IfModule mod_rewrite.c>
+    
+    #RewriteCond %{HTTP_HOST} !^organic-edunet.eu [NC]
+    #RewriteRule ^(.*)$ http://organic-edunet.eu/$1 [L,R=301]
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(?!api|sections) index.php/$1 [L]
+    
+</IfModule>

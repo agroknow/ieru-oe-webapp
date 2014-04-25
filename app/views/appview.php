@@ -1574,7 +1574,7 @@
 								if( response.WrongDomainTermsPair['Translation'] ) {
 									console.log('if');
 
-									var temp = '<span class="domainTerm"><a href="#" class=\"highlight\">'+response.WrongDomainTermsPair['Translation']['@matchedText']+'<\/a><span class=\"domainTermTooltip\">Suggestion: '+response.WrongDomainTermsPair['Translation']['@prefLabel']+'<\/span><\/span>';
+									var temp = '<span class="domainTerm"><a href="javascript:;" class=\"highlight\">'+response.WrongDomainTermsPair['Translation']['@matchedText']+'<\/a><span class=\"domainTermTooltip\">Suggestion: '+response.WrongDomainTermsPair['Translation']['@prefLabel']+'<\/span><\/span>';
 
 									console.log(response.WrongDomainTermsPair['Translation'], response.WrongDomainTermsPair['Translation']['@matchedText']);
 									console.log(temp);
@@ -1589,7 +1589,7 @@
 										console.log(dtc,response.WrongDomainTermsPair[dtc]);
 									}
 
-									var temp = '<div class="domainTerm"><a href="#" class=\"highlight\">'+response.WrongDomainTermsPair['Translation']['@matchedText']+'<\/a><span class=\"domainTermTooltip\">Suggestion: '+response.WrongDomainTermsPair['Translation']['@prefLabel']+'<\/span><\/div>';
+									var temp = '<div class="domainTerm"><a href="javascript:;" class=\"highlight\">'+response.WrongDomainTermsPair['Translation']['@matchedText']+'<\/a><span class=\"domainTermTooltip\">Suggestion: '+response.WrongDomainTermsPair['Translation']['@prefLabel']+'<\/span><\/div>';
 
 									description = description.replace( response.WrongDomainTermsPair['Translation']['@matchedText'], temp);
 									$('#resource-full-content').find('.resource-description').html(description);

@@ -1,0 +1,12 @@
+app/config/database.php
+/bootstrap/compiled.php
+/vendor
+composer.phar
+composer.lock
+.DS_Store
+.svn
+xml
+access_log
+error_log
+npm-debug.log
+node_modules

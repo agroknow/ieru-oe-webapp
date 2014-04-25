@@ -174,4 +174,7 @@ return array(
 'tools_supporting'=>'Organic.Edunet\'in destek araçları',
 'language_resources'=>'Dil kaynaklarımız',
 'best_practices'=>'En iyi uygulamalar',
+'check_domain_terminology'=>'Check domain terminology',
+'translate_before_call_domain_terminology_service' => 'Please make a translation before call Domain Terminology Service.',
+'no_domain_terminology_suggestions_available'=>'There are no domain terminology suggestions available for this resource'
 );

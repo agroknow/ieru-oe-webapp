@@ -1042,7 +1042,7 @@
 						<!-- CHECK DOMAIN TERMINOLOGY -->
 						<!-- this language : <?php echo LANG ?> -->
                         <a href="javascript:;" onclick="checkDomainTerminology( '<?php echo LANG ?>' , '<%=metadata_language%>',
-                        '<%=texts['<?php echo LANG?>'].description%>', '<%=texts[metadata_language].description%>')" class="label" style="font-size: 12px;">Check domain terminology</a>
+                        '<%=texts['<?php echo LANG?>'].description%>', '<%=texts[metadata_language].description%>')" class="label" style="font-size: 12px;"><?php echo Lang::get('website.check_domain_terminology') ?></a>
                     </li>
                 </ul>
             </footer>
@@ -1556,7 +1556,7 @@
 					/*console.log(url); */
 
 					if( from == to ){
-						alert('Please choose a translation first. Domain Terminology works only with translated texts.');
+						alert('<?php echo Lang::get('website.translate_before_call_domain_terminology_service') ?>');
 					}
 					else {
 						$.ajax({
@@ -1574,7 +1574,7 @@
 								if( response.WrongDomainTermsPair['Translation'] ) {
 									console.log('if');
 
-									var temp = '<span class="domainTerm"><a href="#" class=\"highlight\">'+response.WrongDomainTermsPair['Translation']['@matchedText']+'<\/a><span class=\"domainTermTooltip\">'+response.WrongDomainTermsPair['Translation']['@prefLabel']+'<\/span><\/span>';
+									var temp = '<span class="domainTerm"><a href="#" class=\"highlight\">'+response.WrongDomainTermsPair['Translation']['@matchedText']+'<\/a><span class=\"domainTermTooltip\">Suggestion: '+response.WrongDomainTermsPair['Translation']['@prefLabel']+'<\/span><\/span>';
 
 									console.log(response.WrongDomainTermsPair['Translation'], response.WrongDomainTermsPair['Translation']['@matchedText']);
 									console.log(temp);
@@ -1587,17 +1587,15 @@
 
 									for (var dtc in response.WrongDomainTermsPair) {
 										console.log(dtc,response.WrongDomainTermsPair[dtc]);
-										/*console.log(response.WrongDomainTermsPair[dtc]['Translation']['@matchedText']);
-										console.log(response.WrongDomainTermsPair[dtc]['Translation']['@prefLabel']);*/
 									}
 
-									var temp = '<div class="domainTerm"><a href="#" class=\"highlight\">'+response.WrongDomainTermsPair['Translation']['@matchedText']+'<\/a><span class=\"domainTermTooltip\">'+response.WrongDomainTermsPair['Translation']['@prefLabel']+'<\/span><\/div>';
+									var temp = '<div class="domainTerm"><a href="#" class=\"highlight\">'+response.WrongDomainTermsPair['Translation']['@matchedText']+'<\/a><span class=\"domainTermTooltip\">Suggestion: '+response.WrongDomainTermsPair['Translation']['@prefLabel']+'<\/span><\/div>';
 
 									description = description.replace( response.WrongDomainTermsPair['Translation']['@matchedText'], temp);
 									$('#resource-full-content').find('.resource-description').html(description);
 								}
 							} else {
-								alert('There are no domain terminology corrections');
+								alert('<?php echo Lang::get('website.no_domain_terminology_suggestions_available') ?>');
 							}
 
 						});

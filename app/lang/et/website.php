@@ -174,4 +174,7 @@ return array(
 'tools_supporting'=>'Vahendid, mis toetavad Organic.Edunet portaali',
 'language_resources'=>'Meie keeleõppe allikad',
 'best_practices'=>'Parimad näited/kogemused',
+'check_domain_terminology'=>'Check domain terminology',
+'translate_before_call_domain_terminology_service' => 'Please make a translation before call Domain Terminology Service.',
+'no_domain_terminology_suggestions_available'=>'There are no domain terminology suggestions available for this resource'
 );

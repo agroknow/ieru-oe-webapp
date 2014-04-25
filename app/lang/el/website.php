@@ -174,4 +174,7 @@ return array(
 'tools_supporting'=>'Εργαλεια που υποστηριζουν το Organic.Edunet',
 'language_resources'=>'Οι γλωσσικοι μας ποροι',
 'best_practices'=>'Καλες πρακτικες',
+'check_domain_terminology'=>'Έλεγχος θεματικής ορολογίας',
+'translate_before_call_domain_terminology_service' => 'Παρακαλώ μεταφράστε πρώτα το κείμενο και μετά καλέστε τον Έλεγχο.',
+'no_domain_terminology_suggestions_available'=>'Δεν υπάρχουν διορθώσεις με βάση τη θεματική ορολογία.'
 );

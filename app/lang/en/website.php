@@ -170,11 +170,11 @@ return array(
 'participate'=>'Participate',
 'participate_text'=>'Are you a content provider with high quality content about Organic Agriculture and Agroecology? Click here to learn how you can be part of the network.',
 'view'=>'view',
-'behind_the_organic_edunet'=>'What is behind the organic edunet',
+'behind_the_organic_edunet'=>'What is behind the Organic.Edunet',
 'tools_supporting'=>'Tools supporting Organic edunet',
 'language_resources'=>'Our language resources',
 'best_practices'=>'Best practices',
 'check_domain_terminology'=>'Check domain terminology',
-'translate_before_call_domain_terminology_service' => 'Please make a translation before call Domain Terminology Service.',
-'no_domain_terminology_suggestions_available'=>'There are no domain terminology suggestions available for this resource'
+'translate_before_call_domain_terminology_service'=>'Please make a translation before call Domain Terminology Service.',
+'no_domain_terminology_suggestions_available'=>'There are no domain terminology suggestions available for this resource',
 );

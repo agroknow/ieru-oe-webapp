@@ -22,7 +22,7 @@
 
     </head>
 
-    <body onload="ayaSlider()" onunload="unloadFunc()">
+    <body onunload="unloadFunc()"> <!-- onload="ayaSlider()" -->
 
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">

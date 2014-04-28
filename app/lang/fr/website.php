@@ -174,7 +174,7 @@ return array(
 'tools_supporting'=>'Outils compatibles avec Organic edunet',
 'language_resources'=>'Nos ressources',
 'best_practices'=>'Bonnes pratiques',
-'check_domain_terminology'=>'Check domain terminology',
-'translate_before_call_domain_terminology_service' => 'Please make a translation before call Domain Terminology Service.',
-'no_domain_terminology_suggestions_available'=>'There are no domain terminology suggestions available for this resource'
+'check_domain_terminology'=>'Vérifier la terminologie du domaine',
+'translate_before_call_domain_terminology_service'=>'S\'il vous plaît, faites une traduction avant d\'appeler le service de terminologie de domaine',
+'no_domain_terminology_suggestions_available'=>'Il n\'y a pas de suggestions de terminologie de domaine disponibles pour cette ressource',
 );

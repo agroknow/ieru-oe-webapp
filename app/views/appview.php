@@ -596,7 +596,7 @@
         <div id="page-about">
             <div class="container">
                 <div class="row">
-                    <section class="col-lg-12">
+                    <section class="col-lg-12" <?php if(LANG=='ar'){ echo 'style="direction:rtl;"';  }?> >
                         <?php echo Lang::get('about.about') ?>
                     </section>
                 </div>
@@ -643,8 +643,8 @@
         <div id="page-feedback">
             <form id="send-feedback" method="post" style="margin-top: 15px; ">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6">
+                    <div class="row" <?php if(LANG=='ar'){ echo 'style="direction:rtl;"';  }?>>
+                        <div class="col-lg-6 col-md-6" <?php if(LANG=='ar'){ echo 'style="float:right;"';  }?>>
                             <legend><?php echo Lang::get('website.send_feedback') ?></legend>
                             <div class="control-group">
                                 <label class="control-label"><?php echo Lang::get('website.name') ?></label>

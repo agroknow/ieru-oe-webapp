@@ -1410,6 +1410,7 @@
         </script>
 
         <!-- App javaScript files -->
+		<script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
 
 
         <script src="/js/app.min.js?date=<?php echo VERSION?>"></script>
@@ -1519,10 +1520,11 @@
 
 
         	<!-- RED PANDA SLIDER -->
-			<script src="http://code.jquery.com/jquery-1.8.2.js"></script>
-			<script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
-	        <script src="/js/redpanda_slider/js/ayaSlider.js"></script>
+
+<!-- 			<script src="http://code.jquery.com/jquery-1.8.2.js"></script> -->
+			<script src="/js/redpanda_slider/js/ayaSlider.js"></script>
 	        <script src="/js/redpanda_slider/js/jquery.transform2d.js"></script>
+
 			<script type="text/javascript">
 				$(document).ready(function () {
 

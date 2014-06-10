@@ -43,6 +43,7 @@ class HomeController extends BaseController {
 
     public function index ()
     {
+
         // Get a featured resource
         $f = Lom::with('General', 'General.Identifier')
                 ->join('generals', 'generals.lom_id','=','loms.lom_id')
@@ -56,6 +57,7 @@ class HomeController extends BaseController {
                 ->take(10)
                 ->orderBy('generals.lom_id')
                 ->get();
+
         // If no resources in that language, use default language (en)
         if ( !$f->count() )
         {
@@ -72,7 +74,9 @@ class HomeController extends BaseController {
                     ->orderBy('generals.lom_id')
                     ->get();
         }
-        $featured = $f[rand( 0, 9 )];
+/*         	die; */
+/*         $featured = $f[rand( 0, 9 )]; */
+
 
         // Get the required information for showing the resources at the home page
         $carousel = Lom::with('General', 'General.Identifier')
@@ -103,7 +107,7 @@ class HomeController extends BaseController {
 
         return View::make('appview')
                 ->with( 'carousel', $carousel )
-                ->with( 'featured', $featured )
+/*                 ->with( 'featured', $featured ) */
                 ->with( '_user', $this->_user );
     }
 }

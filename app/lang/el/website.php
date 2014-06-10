@@ -117,7 +117,7 @@ return array(
 'copyright'=>'Πνευματικά δικαιώματα',
 'collection'=>'Συλλογή',
 'rate_translation'=>'Βαθμολογία αυτόματης μετάφρασης',
-'advanced_options'=>'Προηγμένες επιλογές',
+'advanced_options'=>'Ρυθμίσεις αναζήτησης',
 'menu_recommendations'=>'Προτεινόμενα',
 'featured_sections'=>'Επιλεγμένοι τομείς',
 'hot_themes'=>'Ενδιαφέροντα θέματα',
@@ -175,6 +175,6 @@ return array(
 'language_resources'=>'Οι γλωσσικοι μας ποροι',
 'best_practices'=>'Καλες πρακτικες',
 'check_domain_terminology'=>'Έλεγχος θεματικής ορολογίας',
-'translate_before_call_domain_terminology_service' => 'Παρακαλώ μεταφράστε πρώτα το κείμενο και μετά καλέστε τον Έλεγχο.',
-'no_domain_terminology_suggestions_available'=>'Δεν υπάρχουν διορθώσεις με βάση τη θεματική ορολογία.'
+'translate_before_call_domain_terminology_service'=>'Παρακαλώ μεταφράστε πρώτα το κείμενο και μετά καλέστε τον Έλεγχο.',
+'no_domain_terminology_suggestions_available'=>'Δεν υπάρχουν διορθώσεις με βάση τη θεματική ορολογία.',
 );

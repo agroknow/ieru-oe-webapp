@@ -162,7 +162,7 @@ return array(
 'slide_3_improve_translation'=>'Paranda tõlget',
 'slide_4_title'=>'Soovita õppematerjale',
 'slide_4_body'=>'Soovita õppematerjale Organic.Edunet`ti järgides kolme lihtsat toimingut.',
-'slide_4_bookmark'=>'Lohista \"Bookmarklet\" enda järjehoidjate hulka.',
+'slide_4_bookmark'=>'Lohista \\',
 'slide_4_click_to_suggest'=>'Vajuta siia, et allikat soovitada',
 'slide_4_submit_suggestion'=>'Lisa enda soovitused',
 'join_us'=>'Ühine meiega',
@@ -174,7 +174,7 @@ return array(
 'tools_supporting'=>'Vahendid, mis toetavad Organic.Edunet portaali',
 'language_resources'=>'Meie keeleõppe allikad',
 'best_practices'=>'Parimad näited/kogemused',
-'check_domain_terminology'=>'Check domain terminology',
-'translate_before_call_domain_terminology_service' => 'Please make a translation before call Domain Terminology Service.',
-'no_domain_terminology_suggestions_available'=>'There are no domain terminology suggestions available for this resource'
+'check_domain_terminology'=>'Kontrolli domeeni terminoloogiat',
+'translate_before_call_domain_terminology_service'=>'Palun tee tõlge enne domeeni terminoloogia teenusesse helistamist.',
+'no_domain_terminology_suggestions_available'=>'Selle allika kohta pole ühtki terminoloogia soovitust.',
 );
